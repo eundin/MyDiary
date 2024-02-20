@@ -1,0 +1,60 @@
+//나중에 변수파일들만 따로 분리
+$main-color: #ffd966;
+$button-color: #eebb4d;
+$placeholder: #9fa6b2;
+
+.main-logo {
+  margin-bottom: 30px;
+}
+
+.center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 414px;
+  height: 200px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: $main-color;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $button-color;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  input::placeholder {
+    color: $placeholder;
+  }
+}
+
+.ear {
+  display: flex;
+  justify-content: space-between;
+  width: 414px;
+  div {
+    width: 0px;
+    height: 0px;
+    border-bottom: 50px solid$main-color;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+  }
+}
