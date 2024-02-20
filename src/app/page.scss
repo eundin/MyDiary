@@ -1,7 +1,12 @@
 //나중에 변수파일들만 따로 분리
+$bg-color: #fff7d4;
 $main-color: #ffd966;
 $button-color: #eebb4d;
 $placeholder: #9fa6b2;
+
+body {
+  background-color: $bg-color;
+}
 
 .main-logo {
   margin-bottom: 30px;
