@@ -21,9 +21,13 @@ export default function Home() {
         <input type="text" placeholder="id" />
         <input type="password" placeholder="password" />
         <button>Login</button>
+        <div className="join-box">
+          <span>Don't you have an account?</span>
+          <span className="join">
+            Join <img src="paw.svg" width={20} height={20} />
+          </span>
+        </div>
       </form>
-
-      <span>Join</span>
     </div>
   );
 }
