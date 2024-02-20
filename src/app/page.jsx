@@ -12,6 +12,7 @@ export default function Home() {
         height={80}
         alt="메인 로고"
       />
+
       <div className="ear">
         <div></div>
         <div></div>
@@ -21,6 +22,7 @@ export default function Home() {
         <input type="password" placeholder="password" />
         <button>Login</button>
       </form>
+
       <span>Join</span>
     </div>
   );
