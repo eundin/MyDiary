@@ -1,3 +1,11 @@
+import SignCompo from "../../../components/Sign";
+
 export default function Join() {
-  return <h1>hi</h1>;
+  return (
+    <SignCompo
+      message="Do you already have an account?"
+      pageName="Login"
+      pathName="/"
+    />
+  );
 }

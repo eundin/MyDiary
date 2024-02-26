@@ -1,0 +1,82 @@
+@import "@/app/variables.scss";
+
+.main-logo {
+  margin-bottom: 30px;
+}
+
+.center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 414px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: $main-color;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    &:focus {
+      outline: 3px solid $dark-yellow;
+    }
+  }
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $dark-yellow;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  input::placeholder {
+    color: $gray;
+    font-size: 18px;
+  }
+  span {
+    color: white;
+  }
+  .join-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+
+    .page-name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      color: $paw;
+      cursor: pointer;
+    }
+  }
+}
+
+.ear {
+  display: flex;
+  justify-content: space-between;
+  width: 414px;
+  div {
+    width: 0px;
+    height: 0px;
+    border-bottom: 50px solid$main-color;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+  }
+}
